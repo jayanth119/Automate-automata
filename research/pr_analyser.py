@@ -31,6 +31,7 @@ class EnhancedPRAnalyzer:
         load_dotenv()
 
         # Environment variables
+        add 
 
         if not self.github_pat or not self.gemini_api_key:
             raise ValueError("Missing required environment variables: GITHUB_PAT, GEMINI_API_KEY")
