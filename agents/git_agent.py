@@ -5,6 +5,7 @@ import json
 # Setup
 from dotenv import load_dotenv
 load_dotenv()
+g = Github()
 REPO_NAME = "openai/openai-cs-agents-demo" 
 repo = g.get_repo(REPO_NAME)
 
